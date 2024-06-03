@@ -32,6 +32,7 @@ export const links = [
     hash: "#contact",
   },
 ] as const;
+// as const is used to specify the particular string,
 
 export const experiencesData = [
   {
