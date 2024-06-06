@@ -22,3 +22,6 @@ export default function Projects() {
     </section>
   );
 }
+
+
+// it is basically a function that is it acts as a server which is importing client

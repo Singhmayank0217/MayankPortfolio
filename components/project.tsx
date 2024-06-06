@@ -16,7 +16,7 @@ export default function Project({
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["0 1", "1.33 1"],
+    offset: ["0 1", "1.33 1"], //when the bottom of the view port crosses top of the target i.e, project and it will end the bottom of the view port has gone beyond 33% of the end of project
   });
   const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
   const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
@@ -69,3 +69,6 @@ export default function Project({
     </motion.div>
   );
 }
+
+
+// here we are using use client as it is used for presentation
