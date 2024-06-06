@@ -44,9 +44,10 @@ export default function About() {
           Beyond coding, I have diverse interests that keep me engaged and
           balanced.
         </span>
-        ,. I find joy in playing <span className="font-medium">Cricket</span>, watching movies, and cooking. I also
-        enjoy <span className="font-medium">Trading</span>, as it is another area
-        that fascinates me, where I enjoy exploring the financial markets and
+        ,. I find joy in playing <span className="font-medium">Cricket</span>,
+        watching movies, and cooking. I also enjoy{" "}
+        <span className="font-medium">Trading</span>, as it is another area that
+        fascinates me, where I enjoy exploring the financial markets and
         understanding various investment strategies{" "}
       </p>
     </motion.section>
